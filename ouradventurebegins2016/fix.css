@@ -16,11 +16,13 @@
   overflow-y: scroll !important;
 }
 
+.navbar-custom .nav li a {
+  color: #627e94;
+}
 .portfolio-modal .prev-modal {
   position: absolute;
   top: 40%;
   left: 50px;
-  cursor: pointer;
 }
 
 .portfolio-modal .prev-modal .lr {
@@ -50,7 +52,6 @@
   position: absolute;
   top: 42.4%;
   right: 90px;
-  cursor: pointer;
 }
 
 .portfolio-modal .next-modal .lr {
@@ -74,4 +75,39 @@
   position: relative;
   top: 20px;
   left: 20px;
+}
+
+.portfolio-modal .next-modal .click-wrapper {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  right: -33px;
+  bottom: 0px;
+  cursor: pointer;
+  z-index: 1054;
+}
+
+.portfolio-modal .prev-modal .click-wrapper {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  right: -33px;
+  top: 0px;
+  cursor: pointer;
+  z-index: 1054;
+}
+
+.form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: #334455 ! important;
+}
+.form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #334455 !important;
+  opacity:  1;
+}
+.form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #334455 !important;
+  opacity:  1;
+}
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #334455 !important;
 }
