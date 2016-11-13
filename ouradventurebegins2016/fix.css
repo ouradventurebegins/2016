@@ -22,7 +22,7 @@
 .portfolio-modal .prev-modal {
   position: absolute;
   top: 40%;
-  left: 50px;
+  left: 2%;
 }
 
 .portfolio-modal .prev-modal .lr {
@@ -51,7 +51,7 @@
 .portfolio-modal .next-modal {
   position: absolute;
   top: 42.4%;
-  right: 90px;
+  right: 5%;
 }
 
 .portfolio-modal .next-modal .lr {
@@ -191,6 +191,9 @@ footer .up .lr .rl {
 .navbar-nav{
   text-align: center;
 }
+.help-block {
+  position: absolute;
+}
 @media only screen and (max-width: 767px) {
   .container>.navbar-header {
     padding: 10px;
@@ -200,3 +203,14 @@ footer .up .lr .rl {
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .portfolio-modal .prev-modal {
+    top: 90%;
+    left: 4%;
+  }
+
+  .portfolio-modal .next-modal {
+    top: 93.2%;
+    right: 8%;
+  }
+}
