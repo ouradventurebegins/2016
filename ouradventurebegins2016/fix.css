@@ -131,14 +131,32 @@ footer {
   text-align: center;
 }
 
+footer .copyright {
+  color: #85ddd1;
+  position: relative;
+  top: 120px;
+}
+
 footer .navbar-brand {
   float: none;
+  position: relative;
+  top: 80px;
 }
 
 footer .up {
   position: absolute;
   top: 20px;
-  right: 48.5%;
+  right: 48.55%;
+}
+
+footer .up .click-wrapper {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  right: -20px;
+  bottom: -12px;
+  cursor: pointer;
+  z-index: 1054;
 }
 
 footer .up .lr {
@@ -162,4 +180,14 @@ footer .up .lr .rl {
   position: relative;
   top: 20px;
   left: 20px;
+}
+.guide .wrapper{
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgba(255, 255, 255, .8);
+  border-radius: 25px;
+  height: 270px;
+}
+.navbar-nav{
+  text-align: center;
 }
