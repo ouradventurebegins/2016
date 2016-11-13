@@ -17,7 +17,7 @@
 }
 
 .navbar-custom .nav li a {
-  color: #627e94;
+  color: #627e94 !important;
 }
 .portfolio-modal .prev-modal {
   position: absolute;
