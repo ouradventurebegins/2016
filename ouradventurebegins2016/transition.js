@@ -1,5 +1,4 @@
-$(function(){
-  $(".portfolio-transition").click(function(){
-    $("portfolio-modal").modal("hide");
-  });
-})
+function showModal(id) {
+  $(".modal").modal("hide");
+  $(id).modal("show");
+}

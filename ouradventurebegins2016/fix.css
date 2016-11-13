@@ -11,3 +11,67 @@
   margin-bottom: 75px;
   line-height: 40px;
 }
+
+.modal {
+  overflow-y: scroll !important;
+}
+
+.portfolio-modal .prev-modal {
+  position: absolute;
+  top: 40%;
+  left: 50px;
+  cursor: pointer;
+}
+
+.portfolio-modal .prev-modal .lr {
+  height: 40px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #222;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.portfolio-modal .prev-modal .lr .rl {
+  height: 40px;
+  width: 1px;
+  background-color: #222;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  z-index: 1052;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.portfolio-modal .next-modal {
+  position: absolute;
+  top: 42.4%;
+  right: 90px;
+  cursor: pointer;
+}
+
+.portfolio-modal .next-modal .lr {
+  height: 40px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #222;
+  transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+}
+
+.portfolio-modal .next-modal .lr .rl {
+  height: 40px;
+  width: 1px;
+  background-color: #222;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  z-index: 1052;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
