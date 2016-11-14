@@ -112,6 +112,35 @@
   color: #334455 !important;
 }
 
+section#contact input, section#contact textarea {
+  border-bottom: solid 1px #334455;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+#ss-form {
+  padding-top: 150px;
+  display: block;
+}
+
+#thanks {
+  margin: 0 10px;
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-style: italic;
+  color: #334455;
+  display: none;
+}
+
+.jfk-button {
+      float: none;
+    position: absolute;
+    right: 43%;
+}
+
+section#contact {
+  padding-bottom: 130px !important;
+}
+
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
   margin-left:0px;
   padding: 0px;
@@ -194,12 +223,21 @@ footer .up .lr .rl {
 .help-block {
   position: absolute;
 }
+@media only screen and (max-width: 480px) {
+  #story {
+    height: 500px;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .container>.navbar-header {
     padding: 10px;
   }
   .navbar-brand > img {
     width: 50px;
+  }
+  #story {
+      height: 800px;
   }
 }
 
